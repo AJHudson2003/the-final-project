@@ -25,4 +25,14 @@ for i in range(how_many_tests):
 average = total / how_many_tests
 print("")
 print("average: " + str(round(average, 2)))
-print(type(average)
+print(average)
+
+print('question three lets have some more fun.')
+
+while True:
+    quad_size_frame=int(input("enter a size of quad frame you need."))
+    if quad_size_frame >= 30:
+        print('that size is to small')
+    elif quad_size_frame <= 145:
+        print('that quad size is way to big')
+        
