@@ -1,7 +1,14 @@
 # AJ Hudson
 # 3.7.19
 
-print("hello welcome to my questions game.")
-def greetings():
-    print('what is ypu name?')
-    
+welcome = input('Welcome to the Questions game!')
+def welcome():
+    print("")
+print('')
+print('question number one')
+print('')
+name = input("What is your name: ")
+def greeting():
+    print(" hi there " + name + "!")
+    print("nice to meet you")
+greeting()
