@@ -1,5 +1,6 @@
 # AJ Hudson
 # 3.7.19
+'this is a queations game that i am using for this '
 
 welcome = input('Welcome to the Questions game!')
 def welcome():
@@ -31,8 +32,17 @@ print('question three lets have some more fun.')
 
 while True:
     quad_size_frame=int(input("enter a size of quad frame you need."))
-    if quad_size_frame >= 30:
+    if quad_size_frame <= 30:
         print('that size is to small')
-    elif quad_size_frame <= 145:
-        print('that quad size is way to big')
-        
+    elif quad_size_frame >= 145:
+        print('that quad size is way still to big')
+    elif quad_size_frame >= 95:
+        print('that quad size is to big.')
+    else:
+        quad_size_frame >= 60
+        print('that quad size is the right size!')
+        break
+
+print('questions three')
+print('')
+
