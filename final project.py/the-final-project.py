@@ -5,6 +5,7 @@
 welcome = input('Welcome to the Questions game!')
 def welcome():
     print("")
+# this will ask your name.
 
 print('question number one')
 print('')
@@ -18,6 +19,7 @@ print('')
 print('questions two!')
 print('')
 
+# this will ask about your test sores.
 total = 0
 how_many_tests = int(input("How many test would you like to average today:  "))
 print("")
@@ -30,6 +32,8 @@ print("average: " + str(round(average, 2)))
 print(average)
 print('question three lets have some more fun.')
 print('')
+# this will ask about your quad size for you to ride.
+
 while True:
     quad_size_frame=int(input("enter a size of quad frame you need."))
     if quad_size_frame <= 30:
@@ -45,8 +49,10 @@ while True:
 
 print('questions four')
 print('')
+# this will ask for some numbers.
+
 sum = 0
-for i in range(5):
+for i in range(10):
     enter_a_number=int(input('enter a few numbers: '))
     sum = sum + enter_a_number
 print('')
