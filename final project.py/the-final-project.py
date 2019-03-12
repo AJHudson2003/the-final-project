@@ -17,6 +17,7 @@ greeting()
 print('')
 print('questions two!')
 print('')
+
 total = 0
 how_many_tests = int(input("How many test would you like to average today:  "))
 print("")
@@ -27,7 +28,6 @@ average = total / how_many_tests
 print("")
 print("average: " + str(round(average, 2)))
 print(average)
-
 print('question three lets have some more fun.')
 print('')
 while True:
@@ -45,7 +45,6 @@ while True:
 
 print('questions four')
 print('')
-
 sum = 0
 for i in range(5):
     enter_a_number=int(input('enter a few numbers: '))
