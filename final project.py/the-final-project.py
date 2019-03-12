@@ -29,7 +29,7 @@ print("average: " + str(round(average, 2)))
 print(average)
 
 print('question three lets have some more fun.')
-
+print('')
 while True:
     quad_size_frame=int(input("enter a size of quad frame you need."))
     if quad_size_frame <= 30:
@@ -43,6 +43,12 @@ while True:
         print('that quad size is the right size!')
         break
 
-print('questions three')
+print('questions four')
 print('')
 
+sum = 0
+for i in range(5):
+    enter_a_number=int(input('enter a few numbers: '))
+    sum = sum + enter_a_number
+print('')
+print('the sum of all your numbers is ' + str(sum))
