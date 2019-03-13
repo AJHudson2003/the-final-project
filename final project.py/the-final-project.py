@@ -57,3 +57,13 @@ for i in range(10):
     sum = sum + enter_a_number
 print('')
 print('the sum of all your numbers is ' + str(sum))
+
+print('question five')
+print('')
+print("we are going to print a set of two numbers")
+def two_numbers(a, c = 20):
+    print('first number: ', a)
+    print('second number: ', c)
+two_numbers(3, 79)
+
+two_numbers(30)
