@@ -67,3 +67,6 @@ def two_numbers(a, c = 20):
 two_numbers(3, 79)
 
 two_numbers(30)
+
+print('thanks for playing my game')
+print('i am glad you played my game it means a lot to me!')
