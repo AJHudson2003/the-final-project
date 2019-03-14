@@ -35,7 +35,7 @@ print("average: " + str(round(average, 2)))
 print(average)
 print('question three lets have some more fun.')
 print('')
-# This will ask the suer that they will have to enter a quad size that they will need to be able to ride.
+# This will ask the user that they will have to enter a quad size that they will need to be able to ride.
 # This will ask about your quad size for you to ride.
 while True:
     quad_size_frame=int(input("enter a size of quad frame you need."))
@@ -64,6 +64,7 @@ print('the sum of all your numbers is ' + str(sum))
 print('question five')
 print('')
 print("we are going to print a set of two numbers")
+# this will have the user input to print out the numbers that they put in.
 def two_numbers(a, c = 20):
     print('first number: ', a)
     print('second number: ', c)
