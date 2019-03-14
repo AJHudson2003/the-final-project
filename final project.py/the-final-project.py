@@ -1,11 +1,15 @@
-# AJ Hudson
-# 3.7.19
-'this is a queations game that i am using for this '
+'''
+ AJ Hudson
+ 3.7.19
+ This is a questions game that i am using for this fun questions game. this will ask five random questions for you to answer.
+This will be a few questions that will have a few different questions for you to answer.
+I hope that you will have
 
+'''
 welcome = input('Welcome to the Questions game!')
 def welcome():
     print("")
-# this will ask your name.
+# this will ask your name so they components will be able to identify the person taking the servey.
 
 print('question number one')
 print('')
@@ -18,8 +22,7 @@ greeting()
 print('')
 print('questions two!')
 print('')
-
-# this will ask about your test sores.
+# This will ask the user to enter a few numbers for their test to answer and then it will round it for them.
 total = 0
 how_many_tests = int(input("How many test would you like to average today:  "))
 print("")
@@ -32,8 +35,8 @@ print("average: " + str(round(average, 2)))
 print(average)
 print('question three lets have some more fun.')
 print('')
-# this will ask about your quad size for you to ride.
-
+# This will ask the suer that they will have to enter a quad size that they will need to be able to ride.
+# This will ask about your quad size for you to ride.
 while True:
     quad_size_frame=int(input("enter a size of quad frame you need."))
     if quad_size_frame <= 30:
@@ -49,7 +52,7 @@ while True:
 
 print('questions four')
 print('')
-# this will ask for some numbers.
+# this will ask for some numbers that they put in and add them together for them so they don't have to.
 
 sum = 0
 for i in range(10):
@@ -67,6 +70,7 @@ def two_numbers(a, c = 20):
 two_numbers(3, 79)
 
 two_numbers(30)
+print('')
 
 print('thanks for playing my game')
 print('i am glad you played my game it means a lot to me!')
